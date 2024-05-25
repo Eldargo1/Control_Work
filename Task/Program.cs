@@ -20,4 +20,6 @@
         }
     }
 
-   
+    // Создаем новый массив нужного размера
+    string[] newArray = new string[count];
+    int index = 0;
