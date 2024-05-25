@@ -10,4 +10,14 @@
         inputArray[i] = inputArray[i].Trim();
     }
 
-    
+    // Подсчитываем количество строк, удовлетворяющих условию
+    int count = 0;
+    foreach (string str in inputArray)
+    {
+        if (str.Length <= 3)
+        {
+            count++;
+        }
+    }
+
+   
